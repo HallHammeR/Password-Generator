@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>PasswordGenerator</title>
+	</head>
+
+	<header>
+		<div id="header-title">
+			<h1>Password Generator</h1>
+		</div>
+	</header>
+
+	<body>
+		<div id="main-container" class="container">
+			<!--This container holds all the main section items-->
+			<section class="main-section">
+				<h2>Generate A Password</h2>
+				<form id="passwordForm">
+					<div id="formGroup" class="form-group3">
+						<input
+							type="message"
+							class="form-control"
+							id="messageInput"
+							placeholder="Your Secure Password"
+						/>
+					</div>
+
+					<div class="buttons">
+						<button
+							type="button"
+							class="btn-generate btn-primary"
+							onClick="userPrompt()"
+							>Generate Password</button
+						>
+						<button type="submit" class="btn-copy btn-secondary"
+							>Copy to Clipboard</button
+						>
+					</div>
+				</form>
+			</section>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
