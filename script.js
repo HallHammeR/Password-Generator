@@ -104,7 +104,6 @@ function userPrompt() {
 
 		if (characterTypes.length < 2) {
 			alert("Select more than 1 character type for security");
-			userPrompt();
 		} else {
 			for (let i = 0; i < passwordLength; i++) {
 				randomArray(characterTypes);
