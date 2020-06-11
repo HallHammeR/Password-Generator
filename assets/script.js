@@ -86,7 +86,7 @@ function userPrompt() {
 	} else {
 		userUpperCase = confirm("Do you want uppercase letters?");
 		userLowerCase = confirm("Do you want lowercase letters?");
-		userNumbers = confirm("Do you want numbers?");
+		userNumbers = confirm("Would you like some numbers?");
 		userSpecialChar = confirm("Do you want speical characters?");
 
 		if (userUpperCase === true) {
