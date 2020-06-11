@@ -1,4 +1,3 @@
-//we define the available character types our password can have
 var upperCase = [
 	"A",
 	"B",
@@ -80,14 +79,10 @@ function userPrompt() {
 	randomlySelectedArray = "";
 	randomlySelectedCharacter = "";
 
-	passwordLength = prompt(
-		"How many characters do you want your password to be? (between 8-128)"
-	);
+	passwordLength = slider.value;
 
 	if (passwordLength < 8 || passwordLength > 128) {
 		alert("Enter number between 8-128");
-
-		userPrompt();
 	} else {
 		userUpperCase = confirm("Do you want uppercase letters?");
 		userLowerCase = confirm("Do you want lowercase letters?");
@@ -121,8 +116,6 @@ function userPrompt() {
 	}
 }
 
-//Randomize password
-
 function randomArray(array) {
 	var randomIndex = Math.floor(Math.random() * array.length);
 	randomlySelectedArray = array[randomIndex];
@@ -135,7 +128,7 @@ function randomChar(arr) {
 	return randomlySelectedCharacter;
 }
 
-var slider = document.getElementById("myRange");
+var slider = document.getElementById("sliderr");
 var output = document.getElementById("demo");
 output.innerHTML = slider.value;
 

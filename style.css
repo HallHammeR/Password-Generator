@@ -1,10 +1,10 @@
 /* Foundation */
 
 body {
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: "Permanent Marker";
 	font-size: 18px;
 	line-height: 34px;
-	background-color: #d1d1d1;
+	background-color: #aeff00;
 }
 
 * {
@@ -32,6 +32,7 @@ h2 {
 	color: black;
 	border-bottom: 2px solid grey;
 	padding-bottom: 30px;
+	text-align: center;
 }
 
 #main-container {
@@ -73,6 +74,7 @@ h2 {
 	margin-left: 40px !important;
 	border-radius: 20px !important;
 	padding: 20px;
+	box-shadow: 0px 1px 10px 1px black;
 }
 
 .btn-copy {
@@ -83,6 +85,7 @@ h2 {
 	margin-right: 40px !important;
 	border-radius: 20px;
 	padding: 20px;
+	box-shadow: 0px 1px 10px 1px black;
 }
 
 .slidecontainer {
@@ -99,6 +102,7 @@ h2 {
 	opacity: 0.7;
 	-webkit-transition: 0.2s;
 	transition: opacity 0.2s;
+	box-shadow: 0px 1px 10px 1px black;
 }
 
 .slider:hover {
@@ -111,14 +115,19 @@ h2 {
 	width: 25px;
 	height: 25px;
 	border-radius: 50%;
-	background: #4caf50;
+	background: #aeff00;
 	cursor: pointer;
+	box-shadow: 0px 1px 10px 1px black;
 }
 
 .slider::-moz-range-thumb {
 	width: 25px;
 	height: 25px;
 	border-radius: 50%;
-	background: #4caf50;
+	background: #aeff00;
 	cursor: pointer;
+}
+
+#vvalve {
+	text-align: center;
 }
