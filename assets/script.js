@@ -85,7 +85,7 @@ function userPrompt() {
 		alert("Enter number between 8-128");
 	} else {
 		userUpperCase = confirm("Do you want uppercase letters?");
-		userLowerCase = confirm("Do you want lowercase letters?");
+		userLowerCase = confirm("Do you need lowercase letters?");
 		userNumbers = confirm("Would you like some numbers?");
 		userSpecialChar = confirm("Do you want speical characters?");
 
